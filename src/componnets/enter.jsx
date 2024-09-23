@@ -13,7 +13,7 @@ export default function Enter({onSend}) {
                method : "get",
                url : `http://api.weatherapi.com/v1/current.json`,
                params: {
-               key : "228eddb43e554cb0a6831049242309",
+               key : "enter the key",
                q :  city,
                aqi :"no"
                     },
