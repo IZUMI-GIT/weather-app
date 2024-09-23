@@ -1,13 +1,12 @@
 import './App.css'
-import Enter from './componnets/enter'
-import Weather from './componnets/weather'
+import Container from './componnets/container'
 
 function App() {
 
+
   return (
     <>
-    <Enter />
-    <Weather />
+    <Container />
     </>
   )
 }
