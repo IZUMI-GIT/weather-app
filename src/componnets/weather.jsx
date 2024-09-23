@@ -12,9 +12,9 @@ export default function Weather({climate}) {
             <label>Country : {climate.location.country} </label>
         </div>
         <div>
-            <label>Temperature : {climate.current.temp_c} </label>
+            <label>Temperature : {climate.current.temp_c} °C</label>
             <br />
-            <label>Humidity : {climate.current.humidity}</label>
+            <label>Humidity : {climate.current.humidity}%</label>
             <br />
             <label>Condition : {climate.current.condition.text}</label>
         </div>
